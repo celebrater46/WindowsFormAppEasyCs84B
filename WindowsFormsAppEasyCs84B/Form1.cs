@@ -21,8 +21,9 @@ namespace WindowsFormsAppEasyCs84B
             this.Text = "Fade in a picture";
             this.Width = 400;
             this.Height = 300;
+            this.DoubleBuffered = true; //
             
-            im = Image.FromFile("C:Z\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs84B\\WindowsFormsAppEasyCs84B\\img\\sample.jpg");
+            im = Image.FromFile("C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs84B\\WindowsFormsAppEasyCs84B\\img\\sample.jpg");
             i = 0;
             Timer tm = new Timer();
             tm.Start();
